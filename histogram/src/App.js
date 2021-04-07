@@ -42,10 +42,10 @@ function App() {
   return (
     <>
       {histogramData === null ? (
-        <p>Loading..</p>
+        <p className="loading">Loading..</p>
       ) : (
         <>
-          <h1>Posts in 2019</h1>
+          <h1 id="title">Posts in 2019</h1>
           <Histogram data={histogramData} />
         </>
       )}
