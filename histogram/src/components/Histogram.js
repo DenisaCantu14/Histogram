@@ -91,20 +91,9 @@ function Histogram(props) {
             />
           );
         })}
-         <AxisLeft
-          scale={yScale}
-          top={0}
-          left={70}
-          label={"Number of posts"}
-        
-         
-        />
+        <AxisLeft scale={yScale} top={0} left={70} label={"Number of posts"} />
 
-        <AxisBottom
-          top={yMax + 2}
-          scale={xmonth}
-          label={"Months"}
-        />
+        <AxisBottom top={yMax + 2} scale={xmonth} label={"Months"} />
       </Group>
     </svg>
   );

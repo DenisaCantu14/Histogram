@@ -23,8 +23,7 @@ function App() {
         let date = new Date(parseInt(item.createdAt));
         let month = date.getMonth();
         let year = date.getFullYear();
-        if (year === 2019)
-          numberOfPostsPerMonth[month] += 1;
+        if (year === 2019) numberOfPostsPerMonth[month] += 1;
       });
 
       for (let i = 0; i < 12; i++) {
