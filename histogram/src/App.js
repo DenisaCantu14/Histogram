@@ -1,5 +1,6 @@
 import { request } from "graphql-request";
 import { useEffect, useState } from "react";
+import Histogram from "./components/Histogram";
 
 const query = `{
     allPosts(count: 60) {
@@ -40,7 +41,14 @@ function App() {
   });
   return (
     <>
-     
+      {histogramData === null ? (
+        <p>Loading..</p>
+      ) : (
+        <>
+          <h1>Posts in 2019</h1>
+          <Histogram data={histogramData} />
+        </>
+      )}
     </>
   );
 }
