@@ -41,7 +41,7 @@ function App() {
   return (
     <>
       {histogramData === null ? (
-        <p className="loading">Loading..</p>
+        <p className="loading">Loading...</p>
       ) : (
         <>
           <h1 id="title">Posts in 2019</h1>

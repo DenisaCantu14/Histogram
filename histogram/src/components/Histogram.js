@@ -68,7 +68,7 @@ function Histogram(props) {
     [xMax]
   );
 
-  return width < 10 ? null : (
+  return (
     <svg width={width} height={height} padding="230" className="histogram">
       <rect width={width} height={height} fill="url(#teal)" rx={14} />
       <GradientOrangeRed id="teal" />
@@ -86,13 +86,12 @@ function Histogram(props) {
               y={barY}
               width={barWidth}
               height={barHeight}
-              padding="800"
               fill="rgb(242, 121, 115)"
             />
           );
         })}
+        
         <AxisLeft scale={yScale} top={0} left={70} label={"Number of posts"} />
-
         <AxisBottom top={yMax + 2} scale={xmonth} label={"Months"} />
       </Group>
     </svg>
