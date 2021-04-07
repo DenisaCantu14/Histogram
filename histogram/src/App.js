@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Histogram from "./components/Histogram";
 
 const query = `{
-    allPosts(count: 60) {
+    allPosts(count: 200) {
       id
       createdAt
     } 
