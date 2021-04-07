@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+    text-align: center;
+}
+.histogram
+{
+    background-color:rgba(254,201,71,255); 
+    border-radius: 2%;
+
+}
+#title
+{
+    margin-bottom: 60px;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.loading
+{
+    font-family: 'Ubuntu', sans-serif;
+
+}
