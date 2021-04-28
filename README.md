@@ -8,4 +8,4 @@ Am creat componenta Histogram, folosindu-mă de anumite pachete precum @vx/group
 
 La final, am adaugat putin CSS.
 
-Am intampinat cateva provocări legate de preluarea datelor, avand in vedere ca am lucrat cu tehnologii noi pentru mine, dar am reușit să completez taskul. :)
+
